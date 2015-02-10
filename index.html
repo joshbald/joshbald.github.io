@@ -3,7 +3,6 @@
         <style>
             body {
                 display: flex;
-                display: -webkit-box;
                 flex-direction: column;
                 align-items: center;
                 margin: 0;
@@ -34,16 +33,17 @@
                 color: #4bacdc;
                 text-align: center;
                 text-transform: capitalize;
-                font-family: Futura, Gotham;
+                font-family: 'Montserrat', FuturaBold, Gotham, helvetica, sans-serif;
             }
             
             h3 { 
-                font-family: FuturaBold, Gotham;
+                font-family: 'Montserrat', FuturaBold, Gotham, helvetica, sans-serif;
                 text-align: center;
+                font-weight: 400;
             }
             
             p {
-                font-family: FuturaBold, Gotham, sans-serif;
+                font-family: 'Ubuntu', univers, sans-serif;
             }
             
             .centerText {
@@ -56,13 +56,11 @@
             	text-decoration: none;
             	color: #4bacdc;
             	font-style: italic;
-            	        
             	            	
         	}
             
             .row {
                 display: flex;
-                display: -webkit-box;
                 justify-content: center;
                 margin: 20px 0;
             }
@@ -75,6 +73,8 @@
             }
 
             .artworkWrapper {
+            	display: -webkit-box;
+            	display: flex;
                 margin-top: 40px;
                 margin-bottom: 40px;
                 margin-left: 0;
@@ -106,6 +106,13 @@
                 background-position: center center;
             }
 
+ 			.websiteWrapper{
+ 				display: -webkit-box;
+            	display: flex;
+            	flex-direction: column;			
+            	
+            }
+            
             .websites {
                 margin: 0;
             }
@@ -121,8 +128,8 @@
             .textblock {
                 flex: 1;
                 margin: 20px;
-                display: flex;
                 display: -webkit-box;
+                display: flex; 
                 flex-direction: column;
                 justify-content: center;
             }
@@ -167,6 +174,8 @@
     </head>
     
     <body>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
         <div class="banner">
             <div class="wrapper">
                 <img class="logo" src="images/logo.png">
@@ -179,7 +188,7 @@
             </p>
             
             <div class="row artworkWrapper">
-                <div class="artwork red"></div> 
+                <div class="artwork red"></div>
                 <div class="artwork blue"></div> 
                 <div class="artwork white"></div> 
                 <div class="artwork heart"></div> 
@@ -199,11 +208,11 @@
                 </div>
                 
                 <div class="row websites">
-                    <img src="images/screenshot-1.png">
+                    <img src="images/screenshot-2.png">
                     <div class="textblock">
-                        <h3>NERDIST.COM</h3>
-                        <p>Nerdist is a wunerbar website, and one that I frequently visit. It has an excellent design aesthetic and UI. Its easy to naviagate, and still keep a really solid design by using a nice modular grid system to convey their information.</p>
-                        <p><a href="http://www.nerdist.com">www.nerdist.com</a><p>
+                        <h3>IFC.COM</h3>
+                        <p>IFC is another ecxcellent site, that is not fancy in anyway but has a nice color pallete and layout.</p>
+                        <p><a href="http://www.ifc.com">www.ifc.com</a><p>
                     </div>    
                 </div>
                 
